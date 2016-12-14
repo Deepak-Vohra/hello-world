@@ -1,2 +1,3 @@
 FROM ubuntu
-CMD echo "Hello World from Jenkins Docker Plugin!"
+RUN "echo Hello World from Docker!"
+CMD ["ls -l"]
